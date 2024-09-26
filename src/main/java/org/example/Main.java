@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.comparing.Comparing;
 import org.example.figure.Circle;
 import org.example.figure.Figure;
 import org.example.figure.Rectangle;
@@ -24,5 +25,7 @@ public class Main {
                 triangle.getPerimeter(),
                 triangle.getSquare()
         );
+        Comparing.comparingArea(rectangle, triangle);
+        Comparing.comparingPerimeter(rectangle, triangle);
     }
 }
